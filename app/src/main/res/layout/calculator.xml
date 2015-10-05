@@ -1,0 +1,174 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/result_id"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your numbers!"
+        />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="20dp">
+
+        <Button
+            android:id="@+id/Btn7_id"
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            android:onClick="btn7Clicked"
+            android:text="@string/seven"
+            />
+
+        <Button
+            android:id="@+id/Btn8_id"
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            android:onClick="btn8Clicked"
+            android:text="@string/eight"
+            />
+
+        <Button
+            android:id="@+id/Btn9_id"
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            android:onClick="btn9Clicked"
+            android:text="@string/nine"
+            />
+
+        <Button
+            android:id="@+id/BtnDivide_id"
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            android:onClick="btnDivideClicked"
+            android:text="@string/divide"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/Btn4_id"
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            android:onClick="btn4Clicked"
+            android:text="@string/four"
+            />
+
+        <Button
+            android:id="@+id/Btn5_id"
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            android:onClick="btn5Clicked"
+            android:text="@string/five"
+            />
+
+        <Button
+            android:id="@+id/Btn6_id"
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            android:onClick="btn6Clicked"
+            android:text="@string/six"
+            />
+
+        <Button
+            android:id="@+id/BtnMultiply_id"
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            android:onClick="btnMultiplyClicked"
+            android:text="@string/multiply"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/Btn1_id"
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            android:onClick="btn1Clicked"
+            android:text="@string/one"
+            />
+
+        <Button
+            android:id="@+id/Btn2_id"
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            android:onClick="btn2Clicked"
+            android:text="@string/two"
+            />
+
+        <Button
+            android:id="@+id/Btn3_id"
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            android:onClick="btn3Clicked"
+            android:text="@string/three"
+            />
+
+        <Button
+            android:id="@+id/BtnSubtract_id"
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            android:onClick="btnSubtractClicked"
+            android:text="@string/subtract"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/BtnCancel_id"
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            android:onClick="btnCancelClicked"
+            android:text="@string/cancel"
+            />
+
+        <Button
+            android:id="@+id/Btn0_id"
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            android:onClick="btn0Clicked"
+            android:text="@string/zero"
+            />
+
+        <Button
+            android:id="@+id/BtnEquals_id"
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            android:onClick="btnEqualsClicked"
+            android:text="@string/equals"
+            />
+
+        <Button
+            android:id="@+id/BtnAdd_id"
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            android:onClick="btnAddClicked"
+            android:text="@string/add"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
